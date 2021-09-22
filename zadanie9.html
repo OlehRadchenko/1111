@@ -18,9 +18,9 @@ var roznica_radc;
 var roznica_d_radc;
 var roznica_g_radc;
 
-roznica_radc=roznica_d_radc + roznica_g_radc;
 roznica_d_radc=(D2_radc*24*60*60) - (D1_radc*24*60*60);
 roznica_g_radc=G2_radc*60*60 - G1_radc*60*60;
+roznica_radc=roznica_d_radc + roznica_g_radc;
 document.write("Pomiędzy dniem " + D1_radc + ", godziny " + G1_radc + " i dniem " + D2_radc + ", godziny " + G2_radc + " minęło " + roznica_radc + " sekund");
 </script>
 <br/>
